@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
+    "commit": "git add . && git commit -m 'feat: update some features' && git push origin HEAD",
     "no-edit": "git add . && git commit --amend --no-edit && git push origin HEAD -f",
     "no-verify": "git add . && git commit --amend --no-edit --no-verify && git push origin HEAD -f",
     "rebase": "git checkout develop && git pull origin develop && git checkout - && git rebase -",
